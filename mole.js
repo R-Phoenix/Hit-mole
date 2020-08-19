@@ -11,10 +11,10 @@ var timer = setInterval(function() {
     setTimeout(() => {
         p.src="hole.jpg";
         p.style.opacity=0.9;
-    }, 600);
+    }, 500);
     document.getElementById("p").innerHTML=point;
     document.getElementById("h").innerHTML=hearts;
-}, 1000);
+}, 750);
 function hit (i){
     if (hearts==0){
         return;
