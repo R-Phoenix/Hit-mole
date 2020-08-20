@@ -3,6 +3,39 @@
     text-align: center;
 }
 .main_box{
+    
+}
+@media (max-width: 575px){
+    .box{
+        height: 18vh;
+    }
+}
+@media (min-width: 992px){
+    .sub_box{
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+    .box{
+        height: 24vh;
+    }
+}
+@media (max-width : 991px) and (min-width: 768px){
+    .sub_box{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .box{
+        height: 22vh;
+    }
+}
+@media (max-width: 767px) and (min-width: 576px) {   
+    .sub_box{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .box{
+        height: 20vh;
+    }
 }
 .sub_box{
     clear: both;
@@ -11,7 +44,6 @@
     float: left;
     border: solid black 2px;
     width: 31.33%;
-    height: 20vh;
     margin: 1%;
     position: relative;
 }
