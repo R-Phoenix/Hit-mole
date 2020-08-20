@@ -2,8 +2,17 @@
     box-sizing: border-box;
     text-align: center;
 }
-.main_box{
-    
+.main_box :hover{
+    cursor: url(Hammer.cur),auto;
+}
+button{
+    width: 100px;
+    height: 50px;
+    background-color: gray;
+    font-size: large;
+    color: snow;
+    padding: 5px;
+    border: solid black 1px;
 }
 @media (max-width: 575px){
     .box{
